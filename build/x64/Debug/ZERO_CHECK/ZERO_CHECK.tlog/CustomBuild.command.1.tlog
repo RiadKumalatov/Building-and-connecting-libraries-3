@@ -1,0 +1,10 @@
+^D:\REPOS\BUILDING AND CONNECTING LIBRARIES 3\BUILD\CMAKEFILES\90A92AB73A867FD1EB3CB156AE8781AE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Repos/Building and connecting libraries 3" "-BD:/Repos/Building and connecting libraries 3/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Repos/Building and connecting libraries 3/build/MyDynamicLibraryProject.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

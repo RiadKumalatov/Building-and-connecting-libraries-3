@@ -1,0 +1,4 @@
+D:/Repos/Building and connecting libraries 3/build/CMakeFiles/Leaver.dir
+D:/Repos/Building and connecting libraries 3/build/CMakeFiles/main.dir
+D:/Repos/Building and connecting libraries 3/build/CMakeFiles/ALL_BUILD.dir
+D:/Repos/Building and connecting libraries 3/build/CMakeFiles/ZERO_CHECK.dir
